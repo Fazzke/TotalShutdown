@@ -72,6 +72,7 @@ public class TotalShutdown {
 
 		try {
 	        buffReader = new BufferedReader(new FileReader(csvFile));
+
             while ((oneLine = buffReader.readLine()) != null) {
 
                 // use comma as separator
@@ -105,8 +106,27 @@ public class TotalShutdown {
 		System.out.print("\n");
 		
 		//__________________________________________________________________________
- 
-
+// stringDelayer("                                                                                                                      ",4,1);
+// stringDelayer("                     _________    ________      _________    ________      ___                                        ",4,1);
+// stringDelayer("                    |\___   ___\ |\   __  \    |\___   ___\ |\   __  \    |\  \                                       ",4,1);
+// stringDelayer("                    \|___ \  \_| \ \  \|\  \   \|___ \  \_| \ \  \|\  \   \ \  \                                      ",4,1);
+// stringDelayer("                         \ \  \   \ \  \\\  \       \ \  \   \ \   __  \   \ \  \                                     ",4,1);
+// stringDelayer("                          \ \  \   \ \  \\\  \       \ \  \   \ \  \ \  \   \ \  \____                                ",4,1);
+// stringDelayer("                           \ \__\   \ \_______\       \ \__\   \ \__\ \__\   \ \_______\                              ",4,1);
+// stringDelayer("                            \|__|    \|_______|        \|__|    \|__|\|__|    \|_______|                              ",4,1);
+// stringDelayer("                                                                                                                      ",4,1);
+// stringDelayer("                                                                                                                      ",4,1);
+// stringDelayer("                                                                                                                      ",4,1);
+// stringDelayer(" ________       ___  ___      ___  ___      _________    ________      ________      ___       __       ________      ",4,1);
+// stringDelayer("|\   ____\     |\  \|\  \    |\  \|\  \    |\___   ___\ |\   ___ \    |\   __  \    |\  \     |\  \    |\   ___  \    ",4,1);
+// stringDelayer("\ \  \___|_    \ \  \\\  \   \ \  \\\  \   \|___ \  \_| \ \  \_|\ \   \ \  \|\  \   \ \  \    \ \  \   \ \  \\ \  \   ",4,1);
+// stringDelayer(" \ \_____  \    \ \   __  \   \ \  \\\  \       \ \  \   \ \  \ \\ \   \ \  \\\  \   \ \  \  __\ \  \   \ \  \\ \  \  ",4,1);
+// stringDelayer("  \|____|\  \    \ \  \ \  \   \ \  \\\  \       \ \  \   \ \  \_\\ \   \ \  \\\  \   \ \  \|\__\_\  \   \ \  \\ \  \ ",4,1);
+// stringDelayer("    ____\_\  \    \ \__\ \__\   \ \_______\       \ \__\   \ \_______\   \ \_______\   \ \____________\   \ \__\\ \__\",4,1);
+// stringDelayer("   |\_________\    \|__|\|__|    \|_______|        \|__|    \|_______|    \|_______|    \|____________|    \|__| \|__|",4,1);
+// stringDelayer("   \|_________|                                                                                                       ",4,1);
+// stringDelayer("                                                                                                                      ",4,1);
+// stringDelayer("                                                                                                                      ",4,1);
 		stringDelayer(".................................................................",4,1);
 		stringDelayer(".........######...####...######...####...##.....................",4,1);
 		stringDelayer("...........##....##..##....##....##..##..##.....................",4,1);
@@ -121,30 +141,65 @@ public class TotalShutdown {
 		stringDelayer("..####...##..##...####.....##....#####....####....##.##...##..##.",4,1);
 		stringDelayer(".................................................................",4,1);
 		
-		System.out.println("\n");
-		
-		//__________________________________________________________________________
+		System.out.println(" \n");
 
 
 		stringDelayer("Initialized. Process is in progress. User input required", 10, 1);
 
-		stringDelayer("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", 10, 1);
-		stringDelayer("->->->->->->->->->", 30, 0);
-		stringDelayer("->->->->->->->->->->->->->->->->->->->->->->->->->->->", 10, 1);
+		System.out.println(" \n");
 
-		stringDelayer("fazzke@Tuempel: Total Shutdown.", 10, 0);
+		stringDelayer("Enabling shutdown hack", 2, 1);
+		stringDelayer("default catalog not found, installing...", 2,1);
+		stringDelayer("environment init", 2, 1);
+		stringDelayer("Loading local Power Reactors... initialized", 2, 1);
+		stringDelayer("catalog download failure:http://fgfs.goneabitbursar.com/pkg/3.4.0/default-catalog.xml", 2, 1);
+		stringDelayer("Found at least one of the following objects for animation: 'terminal_2'", 2, 1);
+		stringDelayer("Could not find at least one of the following objects for animation: 'terminal_2'", 2, 1);
+		stringDelayer("Objects/e000n40/e007n46/3072521.stg: load ControlPanel_SHARED 'Models/LSGS_GrassHangar.ac'", 2, 1);
+		stringDelayer("Objects/e000n40/e007n46/3072521.stg: load POWER_CONTROL 'LSGS_GrassHangar.ac'", 2, 1);
+		stringDelayer("Initializing Error in ground network. Failed to find first waypoint: 0 at LSGG", 2, 1);
+
+		System.out.println(" \n");
+
+		stringDelayer("4lf4N|cK3oooyes@MSKILLER: Total Shutdown.", 10, 0);
 
 		String placeholder = IO.readString(" (yes/no) ");
 
 		System.out.println(" \n");
 
-		stringDelayer("fazzke@Tuempel: Are you sure?", 10, 0);
+		stringDelayer("Deconstruct Power Lines ... initialized", 2, 1);
+		stringDelayer("canvas::Text: No such font: DSEG/DSEG7/Classic-MINI/DSEG7ClassicMini-Bold.ttf", 2, 1);
+		stringDelayer("MEDS : CDR1 Load SVG 1", 2, 1);
+		stringDelayer("Nasal runtime error: No such member: setColor", 2, 1);
+		stringDelayer("  at /home/holger/FlightGear/Aircraft/SpaceShuttle/Nasal/PFD/p_pfd.nas, line 21", 2, 1);
+		stringDelayer("  called from: /Nasal/PFD/PFD_main.nas, line 408", 2, 1);
+		stringDelayer("  called from: //PFD/PFD_main.nas, line 402", 2, 1);
+		stringDelayer("  called from: /Nasal/PFD/PFD_main.nas, line 924", 2, 1);
+		stringDelayer("HUD [HUDImage1] Parse SVG 1", 2, 1);
+		stringDelayer("HUD [HUDImage2] Parse SVG 1", 2, 1);
+
+		System.out.println(" \n");
+
+		stringDelayer("4lf4N|cK3oooyes@MSKILLER: Are you sure?", 10, 0);
 
 		String placeholder2 = IO.readString(" (yes/no) ");
 
 		System.out.println(" \n");
 
-		stringDelayer("fazzke@Tuempel: Are you scared?", 10, 0);
+		stringDelayer("Enabling water pumps hack", 2, 1);
+		stringDelayer("default catalog found, installing Shutdown...", 2, 1);
+		stringDelayer("environment init loading local System Passwords routines...", 2, 1);
+		stringDelayer("crash system –-dynamic shutdwon ... initialized", 2, 1);
+		stringDelayer("EFB Computer ........ Initialized", 2, 1);
+		stringDelayer("REACTOR control ... initialized", 2, 1);
+		stringDelayer("find at least one of the following objects for animation: 'terminal_2'", 2, 1);
+		stringDelayer("find at least one of the following objects for animation: 'terminal_2'", 2, 1);
+		stringDelayer("EHSEZTIKDFFB Computer ........ Initialized", 2, 1);
+		stringDelayer("MultiPower --dual control ... initialized", 2, 1);
+
+		System.out.println(" \n");
+
+		stringDelayer("4lf4N|cK3oooyes@MSKILLER: Are you scared?", 10, 0);
 
 		String placeholder3 = IO.readString(" (yes/no) ");
 
